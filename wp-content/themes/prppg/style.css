@@ -1,0 +1,54 @@
+@import url('css/bootstrap.min.css');
+@import url('css/componentes.css');
+/*
+ Theme Name: PRPPG-PUCPR
+ Theme URI: http://cip.pucpr.br
+ Description: Tema para PRPPG da PUCPR
+ Author: Rene Faustino Gabriel Junior; Paulo Teilor
+ Author URI: http://www.sisdoc.com.br
+ Version: 1.0 
+ */
+
+.children
+	{
+		font-size: 10px;
+	}
+
+.children .sub-menu {
+    left: 100%;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    margin-top: -1px;
+}
+
+.children li:hover .sub-menu {
+    visibility: visible;
+}
+
+.dropdown:hover .children {
+    display: block;
+}
+
+.nav-tabs .children, .nav-pills .children, .navbar .children {
+    margin-top: 0;
+}
+
+.navbar .sub-menu:before {
+    border-bottom: 7px solid transparent;
+    border-left: none;
+    border-right: 7px solid rgba(0, 0, 0, 0.2);
+    border-top: 7px solid transparent;
+    left: -7px;
+    top: 10px;
+}
+.navbar .sub-menu:after {
+    border-top: 6px solid transparent;
+    border-left: none;
+    border-right: 6px solid #fff;
+    border-bottom: 6px solid transparent;
+    left: 10px;
+    top: 11px;
+    left: -6px;
+}
+
