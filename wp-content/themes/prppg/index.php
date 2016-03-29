@@ -36,7 +36,7 @@ require("carousel.php");
                     </div>
                     <div class="content" style="z-index: 5;">
                         <h4 class="title title-uppercase"><?php the_title(); ?></h4>
-                        <p class="description"><?php the_content(); ?></p>
+                        <p class="description"><?php the_excerpt(); ?></p>
                     </div>                            
                     <div class="filter"></div>
                 </div> <!-- end card --> 
